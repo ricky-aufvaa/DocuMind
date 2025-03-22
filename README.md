@@ -47,6 +47,7 @@ uvicorn RAG:app --reload
 ```bash
 # Start chainlit frontend
 chainlit run main.py
+```
 
 ## 📌 Usage
 
