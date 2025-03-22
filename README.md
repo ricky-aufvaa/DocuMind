@@ -31,7 +31,7 @@ Ensure you have the following installed:
 ### Installation
 ```bash
 # Clone the repository
-git clone <repo-url>
+git clone https://github.com/ricky-aufvaa/DocuMind.git
 cd LexiChat
 
 # Install dependencies
@@ -41,8 +41,12 @@ pip install -r requirements.txt
 ### Running the Application
 ```bash
 # Start FastAPI backend
-uvicorn main:app --reload
+uvicorn RAG:app --reload
 ```
+
+```bash
+# Start chainlit frontend
+chainlit run main.py
 
 ## 📌 Usage
 
@@ -58,13 +62,13 @@ uvicorn main:app --reload
 A live version of LexiChat is **coming soon**! Stay tuned. 🚀
 
 ## 📂 Repository
-For now, you can access the code on **GitHub**: [Insert GitHub Repo Link]
+For now, you can access the code on **GitHub**: [https://github.com/ricky-aufvaa/DocuMind.git]
 
 ## 🤝 Contributing
 We welcome contributions! Feel free to fork the repo, create a branch, and submit a PR.
 
 ## 📞 Contact
-For any inquiries, reach out at [your email or contact link].
+For any inquiries, reach out at [sarabjot.singh799@gmail.com].
 
 ---
 
